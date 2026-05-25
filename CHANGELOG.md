@@ -17,7 +17,7 @@
     17|
     18|### Changed
     19|- **Dispatch Prompt Refactor** — Task dispatch now uses a shared prompt builder with planning context, deliverables, and repo-aware OpenCode instructions.
-    20|- **OpenCode Dispatch Model** — Coding-task prompt templates now target `openai/gpt-5.4`.
+    20|- **Codex Dispatch Model** — Coding-task prompt templates now default to `gpt-5.5` for Codex CLI execution.
     21|- **Workspace Deletion Flow** — Deletion now uses a shared preview/delete engine with protected workspace enforcement and safer agent/session retention handling.
     22|
     23|### Fixed

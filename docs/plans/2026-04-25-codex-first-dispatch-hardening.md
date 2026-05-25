@@ -12,7 +12,7 @@
     12|- OpenCode branch remains available when `MC_CODING_EXECUTOR=opencode`.
     13|
     14|### New codex tuning env vars
-    15|- `MC_CODEX_MODEL` (default `gpt-5.4`)
+    15|- `MC_CODEX_MODEL` (default `gpt-5.5`)
     16|- `MC_CODEX_PLAN_REASONING` (default `high`)
     17|- `MC_CODEX_BUILD_REASONING` (default `medium`)
     18|- `MC_CODEX_PLAN_SANDBOX` (default `read-only`)

@@ -155,7 +155,7 @@ export function buildDispatchPrompt(context: DispatchContext): string {
 
   const isCoding = isCodingTask(task.title, task.description || '');
   const codingExecutor = resolveCodingExecutor();
-  const codexModel = (process.env.MC_CODEX_MODEL || 'gpt-5.4').trim();
+  const codexModel = (process.env.MC_CODEX_MODEL || 'gpt-5.5').trim();
   const codexBinary = '/home/vlad-plk/.npm-global/bin/codex';
   const opencodeModel = (process.env.OPENCODE_CODING_MODEL || 'openai/gpt-5.3').trim();
   const opencodeFallbackModel = (process.env.OPENCODE_CODING_FALLBACK_MODEL || '').trim();
